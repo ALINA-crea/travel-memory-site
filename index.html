@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>我的旅行地图</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="hero"><p class="eyebrow">TRAVEL MEMORIES</p><h1>我的旅行地图</h1><p>点击地图上的标记，回顾每一段旅程。</p></header>
+    <section class="map-card" aria-label="旅行地点地图"><div id="map" role="application" aria-label="可移动和缩放的旅行地图"></div><p class="map-attribution" id="map-attribution"></p></section>
+    <section class="detail-card" id="place-detail" aria-live="polite"><p class="eyebrow">SELECTED PLACE</p><h2 id="place-name">请选择一个地点</h2><p class="date" id="place-date">点击地图上的标记查看旅行记录</p><img id="place-image" class="place-image" src="assets/image-placeholder.svg" alt="旅行地点图片占位图" /><div class="copy-grid"><div><h3>旅行记录</h3><p id="place-story">—</p></div><div><h3>旅行攻略</h3><p id="place-tips">—</p></div></div></section>
+  </main>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
