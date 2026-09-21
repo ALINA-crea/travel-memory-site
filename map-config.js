@@ -7,6 +7,7 @@ export const MAP_CONFIG = {
   apiKey: AMAP_KEY,
   securityCode: AMAP_SECURITY_CODE,
   apiUrl: 'https://webapi.amap.com/maps?v=2.0&key=',
+  plugins: 'AMap.DistrictSearch,AMap.PlaceSearch',
   attribution: '地图数据 © 高德地图',
   defaultCenter: [104.1954, 35.8617],
   defaultZoom: 4
