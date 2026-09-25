@@ -9,7 +9,7 @@
 <body>
   <main class="app-shell">
     <header class="hero"><p class="eyebrow">TRAVEL MEMORIES</p><h1>我的旅行地图</h1><p>点击地图上的标记，回顾每一段旅程。</p></header>
-    <section class="map-card" aria-label="旅行地点地图"><div class="map-tools"><form id="location-search" role="search"><input id="search-input" type="search" placeholder="搜索省份、城市或景点" aria-label="搜索省份、城市或景点" /><button type="submit">搜索</button></form><button id="back-to-china" class="back-button" type="button" hidden>返回中国地图</button><p id="search-status" role="status"></p></div><div id="map" role="application" aria-label="可移动和缩放的旅行地图"></div><p class="map-attribution" id="map-attribution"></p></section>
+    <section class="map-card" aria-label="旅行地点地图"><div class="map-tools"><p id="map-breadcrumb" class="map-breadcrumb">中国</p><form id="location-search" role="search"><input id="search-input" type="search" placeholder="搜索省份、城市或景点" aria-label="搜索省份、城市或景点" /><button type="submit">搜索</button></form><button id="back-to-china" class="back-button" type="button" hidden>返回中国地图</button><p id="search-status" role="status"></p></div><div id="map" role="application" aria-label="可移动和缩放的旅行地图"></div><p class="map-attribution" id="map-attribution"></p></section>
     <section class="detail-card" id="place-detail" aria-live="polite"><p class="eyebrow">SELECTED PLACE</p><h2 id="place-name">请选择一个地点</h2><p class="date" id="place-date">点击地图上的标记查看旅行记录</p><img id="place-image" class="place-image" src="assets/image-placeholder.svg" alt="旅行地点图片占位图" /><div class="copy-grid"><div><h3>旅行记录</h3><p id="place-story">—</p></div><div><h3>旅行攻略</h3><p id="place-tips">—</p></div></div></section>
   </main>
   <script type="module" src="script.js"></script>
